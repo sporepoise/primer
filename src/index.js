@@ -17,20 +17,3 @@ export function calculateTotal (items, tax) {
   }
   return total
 }
-
-const items = [
-  {
-    price: 100,
-    taxable: false
-  },
-  {
-    price: 50,
-    taxable: false
-  },
-  {
-    price: 250,
-    taxable: true
-  }
-]
-
-console.log(calculateTotal(items,.0975))
